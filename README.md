@@ -1,7 +1,12 @@
-# neow3j-boilerplate-contracts
+# neow3j-polaris-workshop
 
-This is a boilerplate project setup for Java smart contracts. It brings the minimum amount of code
-to compile and test a "Hello World" smart contract for Neo N3.
+This is the source code for the Java Smart Contract Development Workshop of the Neo Polaris
+Hackathon. It contains example code to show how basic concepts (e.g., ownership, storage, contract
+calling, etc.) can be implemented on a Neo N3 Smart Contract in Java using neow3j.
+
+If you want to develop your own Neo N3 Smart Contracts using neow3j you can use the
+[neow3j-boilerplate-contracts](https://github.com/neow3j/neow3j-boilerplate-contracts) repository as
+a template to get started.
 
 ## Quickstart
 
@@ -12,13 +17,13 @@ tests.
 #### 1. **Clone this git repo:**
 
 ```bash
-git clone https://github.com/neow3j/neow3j-boilerplate-contracts.git
+git clone https://github.com/neow3j/neow3j-polaris-workshop.git
 ```
 
 #### 2. **Go to the project directory:**
 
 ```bash
-cd neow3j-boilerplate-contracts
+cd neow3j-polaris-workshop
 ```
 
 #### 3. **Compile the smart contract:**
@@ -47,7 +52,7 @@ drwxr-xr-x  7 user  wheel  224 23 Feb 17:40 ..
 
 #### 6. **Deploy the contract**
 
-- Run a local [Neo Express](https://github.com/neo-project/neo-express) instance. The project 
+- Run a local [Neo Express](https://github.com/neo-project/neo-express) instance. The project
   includes a Neo Express configuration file.
 - Fund Alice's account: `neoxp transfer 100 GAS genesis alice`
 - Go to the `com.axlabs.boilerplate.Deployment` class and run it.
