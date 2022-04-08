@@ -1,10 +1,11 @@
 # neow3j-polaris-workshop
 
-This is the source code for the Java Smart Contract Development Workshop of the Neo Polaris
-Hackathon. It contains example code to show how basic concepts (e.g., ownership, storage, contract
-calling, etc.) can be implemented on a Neo N3 Smart Contract in Java using neow3j.
+This is the source code for the **Java Smart Contract Development Workshop** of
+the **[Neo Polaris Hackathon](https://polaris.neo.org/)**. It contains example code to show how
+basic concepts (e.g., ownership, storage, contract calling, etc.) can be implemented on a Neo N3
+smart contract in Java.
 
-If you want to develop your own Neo N3 Smart Contracts using neow3j you can use the
+If you want to develop your own Neo N3 smart contracts in Java, you can use the
 [neow3j-boilerplate-contracts](https://github.com/neow3j/neow3j-boilerplate-contracts) repository as
 a template to get started.
 
