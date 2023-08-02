@@ -1,7 +1,7 @@
 # neow3j-polaris-workshop
 
-This is the source code for the **Java Smart Contract Development Workshop** of
-the **[Neo Polaris Hackathon](https://polaris.neo.org/)**. It contains example code to show how
+This is the source code for the workshop **Coding Smart Contracts in Java/Kotlin** of
+the **[Neo APAC Hackathon](https://hackathon.neo.org/)**. It contains example code to show how
 basic concepts (e.g., ownership, storage, contract calling, etc.) can be implemented on a Neo N3
 smart contract in Java.
 
@@ -11,20 +11,20 @@ a template to get started.
 
 ## Quickstart
 
-[Java 8](https://adoptium.net/) (or higher) is required.  
+[Java 8](https://adoptium.net/) (or higher) is required.
 [Docker](https://www.docker.com/products/docker-desktop) is required for running smart contract
 tests.
 
 #### 1. **Clone this git repo:**
 
 ```bash
-git clone https://github.com/neow3j/neow3j-polaris-workshop.git
+git clone https://github.com/neow3j/neow3j-apac-workshop.git
 ```
 
 #### 2. **Go to the project directory:**
 
 ```bash
-cd neow3j-polaris-workshop
+cd neow3j-apac-workshop
 ```
 
 #### 3. **Compile the smart contract:**
@@ -36,7 +36,9 @@ cd neow3j-polaris-workshop
 #### 4. **You will see the following output in the directory `./build/neow3j`:**
 
 ```bash
-$ ls -la build/neow3j 
+$ ls -la build/neow3j
+```
+```
 total 24
 drwxr-xr-x  5 user  wheel  160 23 Feb 17:40 .
 drwxr-xr-x  7 user  wheel  224 23 Feb 17:40 ..
